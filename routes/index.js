@@ -3,10 +3,10 @@ const router = express.Router()
 
 router
     .get('/' ,(req,res) => {
-        res.send('inicio')
+        res.json({msg:'text'})
     })
     .get('/nosotros',(req,res) => {
-        res.send('nosotros')
+        res.send("dsf");
     })
 
 module.exports = router
